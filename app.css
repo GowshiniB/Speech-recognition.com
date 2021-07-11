@@ -1,0 +1,89 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.fas{
+    padding: 10px;
+}
+.navbar{
+    font-weight: 500;
+    margin-bottom: 0%;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    border-radius:10px;
+}
+.procon{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    font-size: medium;
+    line-height: 35px;
+}
+.pro:hover{
+    cursor: pointer;
+    background-color: #b7eed4;
+    transition-delay: 3ms;
+}
+.con:hover{
+    cursor: pointer;
+    background-color: #f1bebe;
+
+    transition-delay: 3ms;
+  
+}
+.pro{
+    background-color: #d0eedf;
+    margin: 23px 23px;
+    width: 1000px;
+
+}
+.con{
+    background-color: #e2c6c6;
+    margin: 23px 23px;
+    width: 1000px;
+
+}
+
+.aboutH{
+    font-weight: 600;
+    color: #5e40ca;
+    border-bottom: 3px solid #5e40ca;
+    margin-top: 0%;
+    margin-bottom: 26px;
+}
+.aboutP{
+    font-size: large;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+.footbar{
+    font-size: small;
+    padding:20px 10px;
+}
+@media (max-width:500px) {
+    .navbar{
+        font-weight: 400;
+
+    }
+    .aboutP{
+        font-size: 15px;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+    .pro{
+        width: fit-content;
+        font-size: medium;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+    .con{
+        width: fit-content;    
+        font-size: medium;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+
+
+}
